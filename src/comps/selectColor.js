@@ -31,16 +31,6 @@ export default class SelectColor extends Component {
             <option value="orange">orange</option>
           </select>
         </div>
-
-        <h2>Enter the amount you want</h2>
-        <input
-          defaultValue="1000"
-          ref={this.amountRef}
-          onInput={this.onAmountChange}
-          type="number"
-          className="form-control"
-        />
-        <h3>total:{this.state.total} NIS</h3>
       </div>
     );
   }
