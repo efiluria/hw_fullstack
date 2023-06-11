@@ -1,0 +1,11 @@
+/* for global css */
+.message{
+  background:greenyellow;
+  border:2px solid green;
+  padding:8px;
+  width:50%;
+}
+
+.ofer{
+  border:2px solid blue;
+}
